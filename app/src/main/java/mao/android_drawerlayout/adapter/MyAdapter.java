@@ -88,11 +88,10 @@ public abstract class MyAdapter<T> extends BaseAdapter
     public abstract void bindView(ViewHolder holder, T obj);
 
     /**
-     * Add.
+     * 添加一个元素
      *
      * @param data the data
      */
-    //添加一个元素
     public void add(T data)
     {
         if (mData == null)
@@ -104,12 +103,11 @@ public abstract class MyAdapter<T> extends BaseAdapter
     }
 
     /**
-     * Add.
+     * 往特定位置，添加一个元素
      *
      * @param position the position
      * @param data     the data
      */
-//往特定位置，添加一个元素
     public void add(int position, T data)
     {
         if (mData == null)
