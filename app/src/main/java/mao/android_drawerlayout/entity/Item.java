@@ -13,6 +13,7 @@ package mao.android_drawerlayout.entity;
  * Description(描述)： 无
  */
 
+
 public class Item
 {
     /**
@@ -25,10 +26,19 @@ public class Item
      */
     private String iconName;
 
+    /**
+     * Instantiates a new Item.
+     */
     public Item()
     {
     }
 
+    /**
+     * Instantiates a new Item.
+     *
+     * @param iconId   the icon id
+     * @param iconName the icon name
+     */
     public Item(int iconId, String iconName)
     {
         this.iconId = iconId;
@@ -36,22 +46,44 @@ public class Item
     }
 
 
+    /**
+     * Gets icon id.
+     *
+     * @return the icon id
+     */
     public int getIconId()
     {
         return iconId;
     }
 
+    /**
+     * Sets icon id.
+     *
+     * @param iconId the icon id
+     * @return the icon id
+     */
     public Item setIconId(int iconId)
     {
         this.iconId = iconId;
         return this;
     }
 
+    /**
+     * Gets icon name.
+     *
+     * @return the icon name
+     */
     public String getIconName()
     {
         return iconName;
     }
 
+    /**
+     * Sets icon name.
+     *
+     * @param iconName the icon name
+     * @return the icon name
+     */
     public Item setIconName(String iconName)
     {
         this.iconName = iconName;
